@@ -55,6 +55,7 @@ header {
   border: none;
   padding: 0;
   margin: 20px 0 0 40px;
+  cursor: pointer;
 }
 
 #home {
@@ -480,7 +481,9 @@ footer {
   height: 110px;
   padding: 0 50px;
   div {
+    // background-image: url('../img/icons/hashworks-black.svg');
     margin-right: 40px;
+    // width: 150px;
   }
   h6 {
     margin: 0;
@@ -491,6 +494,9 @@ footer {
     font-size: 11.2px;
     line-height: 16px;
   }
+  #logo-white-about {
+    display: none;
+  }
 }
 
 #footer-home {
@@ -500,6 +506,47 @@ footer {
 #partner-section-home {
   display: none;
 }
+
+#popup-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 7% 5% 5% 7%;
+  background-color: $fifth-color;
+  height: 100vh;
+  width: 100vw;
+  z-index: 3;
+  overflow: unset;
+  ul {
+    display: flex;
+    flex-direction: column;
+    li {
+      button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+      }
+    }
+    #close-menu-li {
+      align-self: flex-end;
+    }
+    a {
+      color: #fff;
+      font-size: 32px;
+      font-family: $second-font;
+      text-decoration: none;
+    }
+  }
+}
+
+
+
+
+
+
 
 @media only screen and (min-width: 768px) {
   html {
@@ -656,6 +703,12 @@ footer {
     h6:after {
       content: "algo más asdjfñlaksjdf añlsdkfj laksdfj aslñdkfj adslkfj";
     }
+    #logo-white-about {
+      display: block;
+    }
+    #logo-black-about {
+      display: none;
+    }
   }
 
   #partner-section-home {
@@ -678,6 +731,12 @@ footer {
     align-items: center;
     h6:after {
       content: "algo más asdjfñlaksjdf añlsdkfj laksdfj aslñdkfj adslkfj";
+    }
+    #logo-white-index {
+      display: none;
+    }
+    #logo-black-index {
+      display: block;
     }
   }
 }

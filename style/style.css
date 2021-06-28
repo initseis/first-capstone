@@ -41,6 +41,7 @@ header nav ul {
   border: none;
   padding: 0;
   margin: 20px 0 0 40px;
+  cursor: pointer;
 }
 
 #home {
@@ -416,6 +417,9 @@ footer h6 {
   font-size: 11.2px;
   line-height: 16px;
 }
+footer #logo-white-about {
+  display: none;
+}
 
 #footer-home {
   display: none;
@@ -423,6 +427,39 @@ footer h6 {
 
 #partner-section-home {
   display: none;
+}
+
+#popup-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 7% 5% 5% 7%;
+  background-color: #575757;
+  height: 100vh;
+  width: 100vw;
+  z-index: 3;
+  overflow: unset;
+}
+#popup-menu ul {
+  display: flex;
+  flex-direction: column;
+}
+#popup-menu ul li button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+#popup-menu ul #close-menu-li {
+  align-self: flex-end;
+}
+#popup-menu ul a {
+  color: #fff;
+  font-size: 32px;
+  font-family: Lato, sans-serif;
+  text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
@@ -565,6 +602,12 @@ footer h6 {
   #footer-about h6:after {
     content: "algo más asdjfñlaksjdf añlsdkfj laksdfj aslñdkfj adslkfj";
   }
+  #footer-about #logo-white-about {
+    display: block;
+  }
+  #footer-about #logo-black-about {
+    display: none;
+  }
 
   #partner-section-home {
     display: block;
@@ -586,6 +629,12 @@ footer h6 {
   }
   #footer-home h6:after {
     content: "algo más asdjfñlaksjdf añlsdkfj laksdfj aslñdkfj adslkfj";
+  }
+  #footer-home #logo-white-index {
+    display: none;
+  }
+  #footer-home #logo-black-index {
+    display: block;
   }
 }
 

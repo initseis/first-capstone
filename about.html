@@ -9,15 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet"> 
   <title>Document</title>
+  <script src="scripts/main.js" defer></script>
 </head>
 <body>
 
   <header>
     <nav>
-      <button id="menu-mob"><img src="img/icons/icons8-menú.svg" alt=""></button>
+      <button id="menu-mob"><img src="img/icons/menu.svg" alt="" width="40px"></button>
       <a href="" class="logo"><img src="img/background/logo.png" alt="" width="90px" height="90px"></a>
       <ul id="nav-list">
-        <li><a href="#about">About</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="#">Program</a></li>
         <li><a href="#">Joing</a></li>
         <li><a href="#">Sponsor</a></li>
@@ -25,6 +26,16 @@
         <li><a href="#">CC Campaign</a></li>
       </ul>
     </nav>
+    <div id="popup-menu">
+      <ul id="links-list">
+        <li id="close-menu-li">
+          <button id="close-menu-btn">
+            <img id="close-menu-icon" src="img/icons/close-icon.svg" alt="" width="40px"/>
+          </button>
+        </li>
+        <li class="link"><a href="#about">About</a></li>
+      </ul>
+    </div>
   </header>
 
   <main>
@@ -92,7 +103,8 @@
   </main>
   <footer id="footer-about">
     <div id="logo-footer">
-      <img src="img/background/logo.png" alt="" width="120px" height="120px">
+      <img id="logo-black-about" src="img/icons/hashworks-black.svg" alt="" width="150px">
+      <img id="logo-white-about" src="img/icons/hashworks-white.svg" alt="" width="150px">
     </div>
     <h6>2021 Development Trends. Some Rights Reserved.</h6>
   </footer>
