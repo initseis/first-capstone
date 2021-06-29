@@ -330,7 +330,7 @@ header nav ul {
 }
 #main-about hr:nth-of-type(2) {
   margin: 40px 0 30px 0;
-  width: 110%;
+  width: 106%;
   background-color: #d3d3d3;
   border: 1px solid #d3d3d3;
 }
@@ -353,6 +353,7 @@ header nav ul {
   right: 0;
   bottom: 0;
   left: 0;
+  padding: 10px;
   background: black;
   background: rgba(236, 82, 66, 0.8);
   display: flex;
@@ -374,7 +375,7 @@ header nav ul {
 
 .partner-section {
   background-color: #575757;
-  width: 106%;
+  width: 100%;
   margin-top: 25px;
 }
 .partner-section h3 {
@@ -632,6 +633,9 @@ footer #logo-white-about {
   }
   #partner-section-home hr {
     width: 30px;
+  }
+  #partner-section-home ul li {
+    margin-left: 60px;
   }
 
   #footer-home {

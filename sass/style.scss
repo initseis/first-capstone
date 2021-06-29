@@ -357,7 +357,7 @@ header {
   }
   hr:nth-of-type(2) {
     margin: 40px 0 30px 0;
-    width: 110%;
+    width: 106%;
     background-color: $third-color;
     border: 1px solid $third-color;
   }
@@ -392,6 +392,7 @@ header {
       right: 0;
       bottom: 0;
       left: 0;
+      padding: 10px;
       background: rgb(0, 0, 0);
       background: rgba(236, 82, 66, 0.8);
       display: flex;
@@ -445,7 +446,7 @@ header {
 }
 .partner-section {
   background-color: $fifth-color;
-  width: 106%;
+  width: 100%;
   margin-top: 25px;
   // height: 173px;
   h3 {
@@ -735,7 +736,11 @@ footer {
     display: block;
     padding-top: 5px;
     padding-bottom: 1px;
-
+    ul {
+      li {
+        margin-left: 60px;
+      }
+    }
   }
 
   #footer-home {
