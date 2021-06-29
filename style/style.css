@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   font-family: Cocogoose;
   src: url("../style/fonts/COCOGOOSE/Cocogoose.otf");
@@ -115,7 +114,7 @@ header nav ul {
   margin-bottom: 20px;
 }
 #main-program li {
-  background-color: rgba(82, 82, 82, 0.3);
+  background-color: rgba(59, 62, 69, 0.5);
   display: grid;
   grid-template-columns: 30% 30% 40%;
   align-items: center;
@@ -156,7 +155,7 @@ header nav ul {
 #featured-speakers {
   background-color: #fff;
   width: 100%;
-  padding: 25px 3%;
+  padding: 25px 3% 0 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,7 +213,7 @@ header nav ul {
 #featured-speakers li .speaker-about p {
   color: #272a31;
   font-family: Lato, sans-serif;
-  font-size: 11.2px;
+  font-size: 12px;
   line-height: 19.2px;
 }
 #featured-speakers .hidden-speaker {
@@ -222,19 +221,26 @@ header nav ul {
 }
 #featured-speakers button {
   width: 100%;
-  margin: 50px 0 20px 0;
-  height: 45px;
+  margin: 25px 0 20px 0;
+  height: 55px;
   border: 2px solid #d3d3d3;
   border-radius: 4px;
   background-color: #fff;
   color: #272a31;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #home-about {
   margin: 0 7% 35px 7%;
   text-align: center;
+  padding-bottom: 10px;
 }
 #home-about h2 {
   color: #ec5242;
@@ -274,7 +280,7 @@ header nav ul {
   color: #272a31;
   font-family: Lato, sans-serif;
   font-weight: 400;
-  margin: 25px 15% 0 15%;
+  margin: 45px 15% 0 15%;
   font-size: 14.4px;
   line-height: 27.2px;
 }
@@ -376,7 +382,6 @@ header nav ul {
 .partner-section {
   background-color: #575757;
   width: 100%;
-  margin-top: 25px;
 }
 .partner-section h3 {
   color: #fff;
@@ -470,13 +475,14 @@ footer #logo-white-about {
 
 @media only screen and (min-width: 768px) {
   html {
-    font-size: 125%;
+    font-size: 150%;
   }
 
   header {
     background-color: #fff;
     padding: 0 10%;
     height: 90px;
+    margin-bottom: 100px;
   }
   header nav {
     display: flex;
@@ -512,17 +518,29 @@ footer #logo-white-about {
   }
   #home div {
     margin: 0;
+    width: 50%;
   }
   #home h2 {
     margin-top: 25px;
   }
+  #home h4 {
+    font-size: 24px;
+    margin-bottom: 145px;
+  }
 
+  #main-program {
+    padding-bottom: 60px;
+  }
+  #main-program h3 {
+    font-size: 24px;
+  }
   #main-program ul {
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
     justify-content: center;
   }
   #main-program ul li {
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -552,10 +570,16 @@ footer #logo-white-about {
     display: block;
   }
 
+  #featured-speakers {
+    padding-bottom: 60px;
+  }
+  #featured-speakers h3 {
+    font-size: 24px;
+  }
   #featured-speakers ul {
     display: grid;
     grid-template-columns: 40% 40%;
-    gap: 0px 20px;
+    gap: 0px 25px;
     justify-content: center;
   }
   #featured-speakers ul li {
@@ -590,11 +614,14 @@ footer #logo-white-about {
     margin: 10px 15%;
   }
 
+  #main-about h3:nth-of-type(1) {
+    margin-top: 40px;
+  }
   #main-about h3:nth-of-type(2) {
     margin-top: 10px;
   }
   #main-about > h4:after {
-    content: " asdlfjkaiosdfnak alsdjfl asdofia sdklja dsfasidfjla sdfuhasdf sdjds flkasjdf dfa";
+    content: "";
   }
   #main-about #past-summits-div {
     display: grid;
@@ -614,7 +641,7 @@ footer #logo-white-about {
     color: #fff;
   }
   #footer-about h6:after {
-    content: "algo más asdjfñlaksjdf añlsdkfj laksdfj aslñdkfj adslkfj";
+    content: "";
   }
   #footer-about #logo-white-about {
     display: block;
@@ -645,7 +672,7 @@ footer #logo-white-about {
     align-items: center;
   }
   #footer-home h6:after {
-    content: "algo más asdjfñlaksjdf añlsdkfj laksdfj aslñdkfj adslkfj";
+    content: "";
   }
   #footer-home #logo-white-index {
     display: none;
