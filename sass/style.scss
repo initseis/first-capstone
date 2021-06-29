@@ -50,6 +50,10 @@ header {
   }
 }
 
+#about-page-active {
+  color: $primary-color;
+}
+
 #menu-mob {
   background-color: transparent;
   border: none;
@@ -349,12 +353,9 @@ header {
   }
   #div-logo {
     border: 2px solid $third-color;
-    width: 430px;
-    height: 150px;
     text-align: center;
     img {
-      width: 200px;
-      height: 200px;
+      width: 100%;
     }
   }
   hr:nth-of-type(2) {
@@ -366,22 +367,9 @@ header {
   h3:nth-of-type(2) {
     margin: 0 10%;
   }
-  // h4:nth-of-type(2) {
-  //   color: $second-color;
-  //   font-family: $second-font;
-  //   font-weight: 400;
-  //   margin: 5px 5% 30px 5%;
-  //   font-size: 0.9em;
-  //   line-height: 1.7em;
-  // }
   .past-summits {
-    // margin: 0 5%;
     position: relative;
     margin-bottom: 15px;
-    // max-width: 400px;
-    // height: auto;
-    // max-width: 400px;
-    // height: 250px;
     height: 220px;
     clear: both;
     img {
@@ -414,37 +402,6 @@ header {
       }
     }
   }
-  // #past-summit-3 {
-  //   background: url('../img/background/past-summit-1-2.jpg');
-  //   background-repeat: no-repeat;
-  //   // background-size: 100% 100%;
-  //   // background-position: center;
-  //   // margin: 0 auto;
-  //   // width: 100%;
-  //   // padding-bottom: 62.5%;
-  //   position: relative;
-  //   width: 400px;
-  //   height: 220px;
-  //   div {
-  //     background: rgb(0, 0, 0);
-  //     background: rgba(236, 82, 66, 0.7);
-  //     position: absolute;
-  //     top: 0;
-  //     right: 0;
-  //     bottom: 0;
-  //     left: 0;
-  //     h2 {
-  //       // color: red;
-  //       // background-color: green;
-  //     }
-  //   }
-    
-  // }
-  // #img-summit {
-  //   // margin: 10px 30px;
-  //   max-width: 100%;
-  //   height: auto;
-  // }
 }
 
 .partner-section {
@@ -558,7 +515,7 @@ footer {
   header {
     background-color: #fff;
     padding: 0 10%;
-    height: 90px;
+    height: 80px;
     margin-bottom: 100px;
     nav {
       display: flex;
