@@ -132,12 +132,14 @@ header {
   }
   li {
     background-color: rgba(82, 82, 82, 0.3);
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    // justify-content: space-between;
+    grid-template-columns: 30% 30% 40%;
     align-items: center;
     margin-top: 13px;
     span {
       margin: 25px 30px;
+      text-align: center;
     }
     h5 {
       color: $primary-color;
@@ -607,7 +609,9 @@ footer {
 
   #main-program {
     ul {
-      display: flex;
+      display: grid;
+      grid-template-columns: 18% 18% 18% 18% 18%;
+      justify-content: center;
       li {
         display: flex;
         flex-direction: column;
