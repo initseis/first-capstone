@@ -12,3 +12,10 @@ function showMenu() {
 function closeMenu() {
   menuDiv.style.display = 'none';
 }
+
+// Loading Featured Speakers section Dinamically
+const speakers = [
+  {}
+]
+
+
