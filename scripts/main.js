@@ -59,6 +59,9 @@ const speakerUl = document.querySelector('#speakers-list');
 for (let i = 0; i < speakers.length; i+=1) {
   const speakerLi = document.createElement('li');
   speakerLi.className = 'speaker';
+  if (i>1) {
+    speakerLi.className = 'hidden-speaker';
+  }
   speakerUl.appendChild(speakerLi);
   const speakerImgDiv = document.createElement('div');
   speakerImgDiv.className = 'speaker-img-div';
@@ -81,4 +84,18 @@ for (let i = 0; i < speakers.length; i+=1) {
   speakerDetailsP.className = 'speaker-occupation-details';
   speakerDetailsP.innerHTML = speakers[i].biography;
   speakerAboutDiv.appendChild(speakerDetailsP);
+}
+
+// Load all speakers in mobile version
+
+const moreBtn = document.querySelector('#more-speakers');
+
+moreBtn.addEventListener('click', showAllSpeakers);
+
+function showAllSpeakers() {
+  const hiddenSpeakers = document.querySelectorAll('.hidden-speaker');
+  for (let i = 0; i < hiddenSpeakers.length; i++) {
+    hiddenSpeakers[i].style.display = 'inline-flex';
+  }
+  moreBtn.style.display = 'none';
 }

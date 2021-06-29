@@ -216,6 +216,9 @@ header nav ul {
   font-size: 11.2px;
   line-height: 19.2px;
 }
+#featured-speakers .hidden-speaker {
+  display: none;
+}
 #featured-speakers button {
   width: 100%;
   margin: 50px 0 20px 0;
@@ -225,6 +228,7 @@ header nav ul {
   background-color: #fff;
   color: #272a31;
   font-family: Lato, sans-serif;
+  cursor: pointer;
 }
 
 #home-about {
@@ -552,6 +556,12 @@ footer #logo-white-about {
   }
   #featured-speakers ul li {
     background-image: url("../img/background/chess-bg-grey.jpg");
+  }
+  #featured-speakers ul .hidden-speaker {
+    display: inline-flex;
+  }
+  #featured-speakers button {
+    display: none;
   }
 
   /* Style for About */

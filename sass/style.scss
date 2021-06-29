@@ -239,6 +239,9 @@ header {
       }
     }
   }
+  .hidden-speaker {
+    display: none;
+  }
   button {
     width: 100%;
     margin: 50px 0 20px 0;
@@ -248,6 +251,7 @@ header {
     background-color: #fff;
     color: $second-color;
     font-family: $second-font;
+    cursor: pointer;
   }
 }
 
@@ -646,6 +650,12 @@ footer {
       li {
         background-image: url('../img/background/chess-bg-grey.jpg');
       }
+      .hidden-speaker {
+        display: inline-flex;
+      }
+    }
+    button {
+      display: none;
     }
   }
 
