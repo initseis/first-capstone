@@ -2,8 +2,8 @@
 
 > This is my first Capstone about a development course.
 
-![screenshot](./img/screenshots/app_screenshot.png)  
-![screenshot](./img/screenshots/app_screenshot_desk.png)
+![screenshot](./img/screenshots/screenshot-desktop.png)  
+![screenshot](./img/screenshots/screenshot-mobile.png)
 
 ## Built With
 
