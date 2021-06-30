@@ -89,7 +89,7 @@ for (let i = 0; i < speakers.length; i += 1) {
 
 // Load all speakers in mobile version
 
-const moreBtn = document.querySelector('#more-speakers');
+const moreBtn = document.querySelector('#more-btn');
 
 function showAllSpeakers() {
   const hiddenSpeakers = document.querySelectorAll('.hidden-speaker');
