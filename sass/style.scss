@@ -594,6 +594,10 @@ footer {
             font-family: $second-font;
             color: $second-color;
           }
+
+          a:hover {
+            color: $primary-color;
+          }
         }
       }
     }
