@@ -68,6 +68,7 @@ for (let i = 0; i < speakers.length; i += 1) {
   speakerLi.appendChild(speakerImgDiv);
   const speakerImg = document.createElement('img');
   speakerImg.src = speakers[i].photo;
+  speakerImg.alt = `speaker ${i + 1} photo`;
   speakerImgDiv.appendChild(speakerImg);
   const speakerAboutDiv = document.createElement('div');
   speakerAboutDiv.className = 'speaker-about';
