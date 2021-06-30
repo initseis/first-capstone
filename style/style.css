@@ -405,7 +405,7 @@ footer #logo-white-about {
 #featured-speakers {
   background-color: #fff;
   width: 100%;
-  padding: 25px 3% 0 3%;
+  padding: 25px 3% 20px 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -498,7 +498,16 @@ footer #logo-white-about {
 }
 
 #footer-home {
+  display: flex;
+  background-color: #2e2e2e;
+}
+
+#footer-home #logo-footer #logo-black-index {
   display: none;
+}
+
+#footer-home h6 {
+  color: #fff;
 }
 
 #popup-menu {
@@ -801,17 +810,18 @@ footer #logo-white-about {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
   }
 
-  #footer-home h6::after {
-    content: "";
+  #footer-home h6 {
+    color: #272a31;
   }
 
-  #footer-home #logo-white-index {
+  #footer-home div #logo-white-index {
     display: none;
   }
 
-  #footer-home #logo-black-index {
+  #footer-home div #logo-black-index {
     display: block;
   }
 }
