@@ -817,11 +817,11 @@ footer #logo-white-about {
     color: #272a31;
   }
 
-  #footer-home div #logo-white-index {
+  #footer-home #logo-footer #logo-white-index {
     display: none;
   }
 
-  #footer-home div #logo-black-index {
+  #footer-home #logo-footer #logo-black-index {
     display: block;
   }
 }
