@@ -2,7 +2,6 @@
   font-family: cocogoose;
   src: url("../style/fonts/COCOGOOSE/Cocogoose.otf");
 }
-
 *,
 *::before,
 *::after {
@@ -31,11 +30,9 @@ header {
   padding: 0;
   margin: 0 0 40px 0;
 }
-
 header nav a {
   display: none;
 }
-
 header nav ul {
   display: none;
 }
@@ -54,9 +51,8 @@ header nav ul {
 
 .partner-section {
   background-color: #575757;
-  width: 100%;
+  width: 106%;
 }
-
 .partner-section h3 {
   color: #fff;
   text-align: center;
@@ -65,24 +61,26 @@ header nav ul {
   margin: 24px 0 5px 0;
   font-weight: 400;
 }
-
 .partner-section hr {
   background-color: #ec5242;
   border: 1px solid #ec5242;
   width: 20px;
   margin-bottom: 10px;
 }
-
 .partner-section ul {
+  padding: 0 3%;
   margin: 20px 0 25px 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
-
 .partner-section ul li {
-  margin: -40px 15px;
+  margin: -40px auto -40px auto;
+}
+
+#partner-section-home {
+  width: 100%;
 }
 
 footer {
@@ -93,20 +91,21 @@ footer {
   height: 110px;
   padding: 0 50px;
 }
-
 footer div {
-  margin-right: 40px;
+  margin-right: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: end;
 }
-
 footer h6 {
-  margin: 0;
+  width: 50%;
+  margin-left: 20px;
   color: #272a31;
   font-family: lato, sans-serif;
   font-weight: 400;
   font-size: 11.2px;
   line-height: 16px;
 }
-
 footer #logo-white-about {
   display: none;
 }
@@ -116,7 +115,6 @@ footer #logo-white-about {
   text-align: center;
   padding-bottom: 10px;
 }
-
 #home-about h2 {
   color: #ec5242;
   font-family: lato, sans-serif;
@@ -124,7 +122,6 @@ footer #logo-white-about {
   margin: 0;
   font-size: 1.5rem;
 }
-
 #home-about h1 {
   font-size: 36px;
   padding-left: 10px;
@@ -134,18 +131,15 @@ footer #logo-white-about {
   color: #ec5242;
   line-height: 36px;
 }
-
 #home-about hr {
   display: none;
 }
-
 #home-about div {
   background-color: #fff;
   padding: 20px;
   border: 2px solid #d3d3d3;
   margin: 10px -2%;
 }
-
 #home-about div p {
   color: #272a31;
   padding: 0;
@@ -155,7 +149,6 @@ footer #logo-white-about {
   line-height: 24px;
   font-size: 14px;
 }
-
 #home-about h4 {
   color: #272a31;
   font-family: lato, sans-serif;
@@ -164,7 +157,6 @@ footer #logo-white-about {
   font-size: 14.4px;
   line-height: 27.2px;
 }
-
 #home-about a {
   color: #272a31;
   font-family: lato, sans-serif;
@@ -176,7 +168,6 @@ footer #logo-white-about {
 #home {
   margin: 0 5%;
 }
-
 #home h2:nth-child(1) {
   color: #ec5242;
   font-family: lato, sans-serif;
@@ -184,7 +175,6 @@ footer #logo-white-about {
   margin: 0;
   font-size: 1.5rem;
 }
-
 #home h1 {
   font-size: 2.5rem;
   padding-left: 10px;
@@ -194,14 +184,12 @@ footer #logo-white-about {
   color: #ec5242;
   line-height: 2.5rem;
 }
-
 #home div {
   background-color: #f7f7f7;
   padding: 20px;
   border: 3px solid #fff;
   margin: 10px -2%;
 }
-
 #home div p {
   color: #272a31;
   padding: 0;
@@ -211,14 +199,12 @@ footer #logo-white-about {
   line-height: 20px;
   font-size: 12.8px;
 }
-
 #home h2:nth-child(4) {
   color: #272a31;
   font-family: cocogoose, sans-serif;
   margin-bottom: 5px;
   font-size: 28px;
 }
-
 #home h4 {
   color: #272a31;
   font-family: lato, sans-serif;
@@ -235,7 +221,6 @@ footer #logo-white-about {
   flex-direction: column;
   align-items: center;
 }
-
 #main-program h3 {
   color: #fff;
   text-align: center;
@@ -244,14 +229,12 @@ footer #logo-white-about {
   margin-bottom: 5px;
   font-weight: 400;
 }
-
 #main-program hr {
   background-color: #ec5242;
   border: 1px solid #ec5242;
   width: 45px;
   margin-bottom: 20px;
 }
-
 #main-program li {
   background-color: rgba(59, 62, 69, 0.5);
   display: grid;
@@ -259,19 +242,16 @@ footer #logo-white-about {
   align-items: center;
   margin-top: 13px;
 }
-
 #main-program li span {
   margin: 25px 30px;
   text-align: center;
 }
-
 #main-program li h5 {
   color: #ec5242;
   margin: 25px 30px 25px 0;
   font-family: lato, sans-serif;
   font-size: 19.2px;
 }
-
 #main-program li p {
   color: #fff;
   margin: 25px 30px 25px 0;
@@ -279,7 +259,6 @@ footer #logo-white-about {
   font-size: 14px;
   line-height: 20px;
 }
-
 #main-program button {
   width: 70%;
   margin-top: 40px;
@@ -291,7 +270,6 @@ footer #logo-white-about {
   font-family: lato, sans-serif;
   font-size: 1.2em;
 }
-
 #main-program a {
   display: none;
 }
@@ -306,7 +284,6 @@ footer #logo-white-about {
   align-items: center;
   text-align: center;
 }
-
 #main-about > h3 {
   color: #272a31;
   text-align: center;
@@ -315,14 +292,12 @@ footer #logo-white-about {
   margin-bottom: 5px;
   font-weight: 400;
 }
-
 #main-about hr {
   background-color: #ec5242;
   border: 1px solid #ec5242;
   width: 20px;
   margin-bottom: 10px;
 }
-
 #main-about h4 {
   color: #272a31;
   font-family: lato, sans-serif;
@@ -331,19 +306,16 @@ footer #logo-white-about {
   font-size: 14.4px;
   line-height: 27.2px;
 }
-
 #main-about .past-summits {
   position: relative;
   margin-bottom: 15px;
   height: 220px;
   clear: both;
 }
-
 #main-about .past-summits img {
   width: 100%;
   height: 100%;
 }
-
 #main-about .past-summits div {
   position: absolute;
   top: 0;
@@ -357,7 +329,6 @@ footer #logo-white-about {
   flex-direction: column;
   justify-content: center;
 }
-
 #main-about .past-summits div h2 {
   margin: 0;
   color: #fff;
@@ -365,29 +336,24 @@ footer #logo-white-about {
   font-family: lato, sans-serif;
   font-weight: 700;
 }
-
 #main-about .past-summits div h4 {
   margin: 0;
   color: #fff;
   font-size: 1em;
 }
-
 #main-about #div-logo {
   border: 2px solid #d3d3d3;
   text-align: center;
 }
-
 #main-about #div-logo img {
   width: 100%;
 }
-
 #main-about hr:nth-of-type(2) {
   margin: 40px 0 30px 0;
   width: 106%;
   background-color: #d3d3d3;
   border: 1px solid #d3d3d3;
 }
-
 #main-about h3:nth-of-type(2) {
   margin: 0 10%;
 }
@@ -400,7 +366,6 @@ footer #logo-white-about {
   flex-direction: column;
   align-items: center;
 }
-
 #featured-speakers #featured-speakers-title {
   color: #272a31;
   text-align: center;
@@ -409,7 +374,6 @@ footer #logo-white-about {
   font-size: 22px;
   font-weight: 400;
 }
-
 #featured-speakers hr:nth-of-type(1) {
   border: 1px solid #ec5242;
   border-radius: 1px;
@@ -417,7 +381,6 @@ footer #logo-white-about {
   width: 45px;
   margin-bottom: 10px;
 }
-
 #featured-speakers li {
   background-image: url("../img/background/chess-bg.jpg");
   background-repeat: no-repeat;
@@ -425,23 +388,19 @@ footer #logo-white-about {
   display: flex;
   margin-top: 40px;
 }
-
 #featured-speakers li #speaker-img-div {
   margin: 15px 20px 0 15px;
 }
-
 #featured-speakers li #speaker-img-div img {
   width: 120px;
   height: 120px;
 }
-
 #featured-speakers li .speaker-about h4 {
   margin: 5px 0;
   color: #272a31;
   font-family: lato, sans-serif;
   font-size: 19.2px;
 }
-
 #featured-speakers li .speaker-about h5 {
   margin: 0 0 10px 0;
   color: #ec5242;
@@ -450,7 +409,6 @@ footer #logo-white-about {
   font-weight: 400;
   font-size: 12.8px;
 }
-
 #featured-speakers li .speaker-about hr {
   margin: 0;
   width: 20px;
@@ -458,18 +416,15 @@ footer #logo-white-about {
   border-radius: 1px;
   background-color: #d3d3d3;
 }
-
 #featured-speakers li .speaker-about p {
   color: #272a31;
   font-family: lato, sans-serif;
   font-size: 12px;
   line-height: 19.2px;
 }
-
 #featured-speakers .hidden-speaker {
   display: none;
 }
-
 #featured-speakers button {
   width: 100%;
   margin: 25px 0 20px 0;
@@ -503,30 +458,27 @@ footer #logo-white-about {
   bottom: 0;
   left: 0;
   padding: 7% 5% 5% 7%;
-  background-color: #575757;
+  background-image: url("../img/background/home-bg-3.png");
   height: 100vh;
   width: 100vw;
   z-index: 3;
   overflow: unset;
 }
-
 #popup-menu ul {
   display: flex;
   flex-direction: column;
 }
-
 #popup-menu ul li button {
   background: transparent;
   border: none;
   cursor: pointer;
+  color: #272a31;
 }
-
 #popup-menu ul #close-menu-li {
   align-self: flex-end;
 }
-
 #popup-menu ul a {
-  color: #fff;
+  color: #272a31;
   font-size: 32px;
   font-family: lato, sans-serif;
   text-decoration: none;
@@ -539,42 +491,60 @@ footer #logo-white-about {
 
   header {
     background-color: #fff;
-    padding: 0 10%;
-    height: 80px;
+    height: 130px;
     margin-bottom: 100px;
   }
-
-  header nav {
+  header #first-nav {
+    height: 50px;
+    width: 100%;
+    background-color: #575757;
+  }
+  header #first-nav ul {
+    display: block;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    padding-top: 6px;
+  }
+  header #first-nav ul li {
+    display: block;
+    margin-left: 30px;
+  }
+  header #first-nav ul li a {
+    text-decoration: none;
+    font-size: 14.4px;
+    font-family: lato, sans-serif;
+    color: #fff;
+    display: block;
+  }
+  header #second-nav {
+    padding: 0 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
-
-  header nav button {
+  header #second-nav button {
     display: none;
   }
-
-  header nav a {
+  header #second-nav a {
     display: block;
   }
-
-  header nav ul {
+  header #second-nav ul {
     display: block;
     display: flex;
   }
-
-  header nav ul li {
+  header #second-nav ul li {
     margin-left: 35px;
   }
-
-  header nav ul li a {
+  header #second-nav ul li a {
     text-decoration: none;
     font-size: 14.4px;
     font-family: lato, sans-serif;
     color: #272a31;
   }
-
-  header nav ul li a:hover {
+  header #second-nav ul li a:hover {
     color: #ec5242;
   }
 
@@ -582,20 +552,16 @@ footer #logo-white-about {
     padding: 0 10%;
     margin: 0;
   }
-
   #home h1 {
     margin-bottom: 15px;
   }
-
   #home div {
     margin: 0;
     width: 50%;
   }
-
   #home h2 {
     margin-top: 25px;
   }
-
   #home h4 {
     font-size: 24px;
     margin-bottom: 145px;
@@ -604,17 +570,14 @@ footer #logo-white-about {
   #main-program {
     padding-bottom: 60px;
   }
-
   #main-program h3 {
     font-size: 24px;
   }
-
   #main-program ul {
     display: grid;
     grid-template-columns: 18% 18% 18% 18% 18%;
     justify-content: center;
   }
-
   #main-program ul li {
     padding: 10px 0;
     display: flex;
@@ -622,23 +585,18 @@ footer #logo-white-about {
     text-align: center;
     margin-right: 5px;
   }
-
   #main-program ul li span {
     margin: 10px 30px 10px 30px;
   }
-
   #main-program ul li h5 {
     margin: 0 30px 10px 30px;
   }
-
   #main-program ul li p {
     margin: 0 30px 10px 30px;
   }
-
   #main-program button {
     display: none;
   }
-
   #main-program a {
     color: #fff;
     font-family: lato, sans-serif;
@@ -654,26 +612,21 @@ footer #logo-white-about {
   #featured-speakers {
     padding-bottom: 60px;
   }
-
   #featured-speakers h3 {
     font-size: 24px;
   }
-
   #featured-speakers ul {
     display: grid;
     grid-template-columns: 40% 40%;
     gap: 0 25px;
     justify-content: center;
   }
-
   #featured-speakers ul li {
     background-image: url("../img/background/chess-bg-grey.jpg");
   }
-
   #featured-speakers ul .hidden-speaker {
     display: inline-flex;
   }
-
   #featured-speakers button {
     display: none;
   }
@@ -682,15 +635,12 @@ footer #logo-white-about {
   #home-about {
     margin-bottom: 70px;
   }
-
   #home-about #about-h2 {
     display: none;
   }
-
   #home-about h1 {
     margin: 80px 0 15px 0;
   }
-
   #home-about hr {
     background-color: #ec5242;
     border: 1px solid #ec5242;
@@ -698,7 +648,6 @@ footer #logo-white-about {
     margin-bottom: 30px;
     display: block;
   }
-
   #home-about div {
     padding: 20px 40px;
     margin: 10px 15%;
@@ -709,31 +658,22 @@ footer #logo-white-about {
     padding-top: 5px;
     padding-bottom: 1px;
   }
-
   #partner-section-home h3 {
     color: #d3d3d3;
   }
-
   #partner-section-home hr {
     width: 30px;
-  }
-
-  #partner-section-home ul li {
-    margin-left: 60px;
   }
 
   #main-about h3:nth-of-type(1) {
     margin-top: 40px;
   }
-
   #main-about h3:nth-of-type(2) {
     margin-top: 10px;
   }
-
   #main-about > h4::after {
     content: "";
   }
-
   #main-about #past-summits-div {
     display: grid;
     grid-template-columns: auto auto;
@@ -748,19 +688,15 @@ footer #logo-white-about {
   #footer-about {
     background-color: #2e2e2e;
   }
-
   #footer-about h6 {
     color: #fff;
   }
-
   #footer-about h6::after {
     content: "";
   }
-
   #footer-about #logo-white-about {
     display: block;
   }
-
   #footer-about #logo-black-about {
     display: none;
   }
@@ -771,16 +707,15 @@ footer #logo-white-about {
     justify-content: center;
     align-items: center;
   }
-
   #footer-home h6::after {
     content: "";
   }
-
   #footer-home #logo-white-index {
     display: none;
   }
-
   #footer-home #logo-black-index {
     display: block;
   }
 }
+
+/*# sourceMappingURL=style.css.map */

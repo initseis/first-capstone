@@ -68,7 +68,7 @@ header {
 
 .partner-section {
   background-color: $fifth-color;
-  width: 100%;
+  width: 106%;
 
   h3 {
     color: #fff;
@@ -87,6 +87,7 @@ header {
   }
 
   ul {
+    padding: 0 3%;
     margin: 20px 0 25px 0;
     display: flex;
     flex-wrap: wrap;
@@ -94,9 +95,13 @@ header {
     justify-content: center;
 
     li {
-      margin: -40px 15px;
+      margin: -40px auto -40px auto;
     }
   }
+}
+
+#partner-section-home {
+  width: 100%;
 }
 
 footer {
@@ -108,12 +113,15 @@ footer {
   padding: 0 50px;
 
   div {
-    margin-right: 40px;
+    margin-right: 20px;
+    width: 50%;
+    display: flex;
+    justify-content: end;
   }
 
   h6 {
-    margin: 0;
-    // width: 30%;
+    width: 50%;
+    margin-left: 20px;
     color: $second-color;
     font-family: $second-font;
     font-weight: 400;
@@ -140,9 +148,6 @@ footer {
   }
 
   h1 {
-    // background-image: url('../img/background/home-bg.jpg');
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
     font-size: 36px;
     padding-left: 10px;
     margin: 20px 0 50px 0;
@@ -526,7 +531,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 7% 5% 5% 7%;
-  background-color: $fifth-color;
+  background-image: url('../img/background/home-bg-3.png');
   height: 100vh;
   width: 100vw;
   z-index: 3;
@@ -541,6 +546,7 @@ footer {
         background: transparent;
         border: none;
         cursor: pointer;
+        color: $second-color;
       }
     }
 
@@ -549,7 +555,7 @@ footer {
     }
 
     a {
-      color: #fff;
+      color: $second-color;
       font-size: 32px;
       font-family: $second-font;
       text-decoration: none;
@@ -564,11 +570,39 @@ footer {
 
   header {
     background-color: #fff;
-    padding: 0 10%;
-    height: 80px;
+    // padding: 0 10%;
+    height: 130px;
     margin-bottom: 100px;
 
-    nav {
+    #first-nav {
+      height: 50px;
+      width: 100%;
+      background-color: $fifth-color;
+      ul {
+        display: block;
+        padding-right: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 0;
+        padding-top: 6px;
+
+        li {
+          display: block;
+          margin-left: 30px;
+          a {
+            text-decoration: none;
+            font-size: 14.4px;
+            font-family: $second-font;
+            color: #fff;
+            display: block;
+          }
+        }
+      }
+    }
+
+    #second-nav {
+      padding: 0 10%;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -743,12 +777,6 @@ footer {
     display: block;
     padding-top: 5px;
     padding-bottom: 1px;
-
-    ul {
-      li {
-        margin-left: 60px;
-      }
-    }
   }
 
   #main-about {
